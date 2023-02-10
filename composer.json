@@ -13,16 +13,16 @@
         "php": ">=8.0",
         "ext-intl": "*",
         "kiczort/polish-validator": "^1.2",
-        "symfony/config" : "~6.1",
-        "symfony/http-kernel" : "~6.1",
-        "symfony/dependency-injection" : "~6.1",
-        "symfony/validator": "~6.1"
+        "symfony/config" : "~5.4|~6.1",
+        "symfony/http-kernel" : "~5.4|~6.1",
+        "symfony/dependency-injection" : "~5.4|~6.1",
+        "symfony/validator": "~5.4|~6.1"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
         "phpunit/phpunit": "~9.0",
-        "symfony/phpunit-bridge": "~6.1",
-        "symfony/intl": "^6.2"
+        "symfony/phpunit-bridge": "~5.4|~6.1",
+        "symfony/intl": "~5.4|^6.2"
     },
     "autoload": {
         "psr-4": {
